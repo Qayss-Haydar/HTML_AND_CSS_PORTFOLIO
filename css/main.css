@@ -1,6 +1,6 @@
 /* Start Global Rules */
 :root {
-    --main-section-padding: 100px;
+    --main-section-padding: 80px;
     --main-color: #00fff7;
     --main-color-alt: #07c2bc;
     --main-transition: 0.3s;
@@ -357,6 +357,7 @@ a {
     height: 30px;
     background-color: #ddd;
     position: relative;
+    border-radius: 5px;
 }
 
 .my-skills .container .skills .skill .the-progress span {
@@ -365,6 +366,7 @@ a {
     left: 0;
     height: 100%;
     background-color: var(--main-color);
+    border-radius: 5px;
 }
 
 /* End Skills */
