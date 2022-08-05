@@ -256,9 +256,15 @@ a {
 }
 
 .services .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: flex;
+    justify-self: center;
     gap: 50px;
+}
+
+@media (max-width: 767px) {
+    .services .container {
+        flex-direction: column;
+    }
 }
 
 .services .container .box {
