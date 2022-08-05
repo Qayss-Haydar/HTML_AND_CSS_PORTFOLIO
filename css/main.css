@@ -258,7 +258,7 @@ a {
 .services .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px;
+    gap: 50px;
 }
 
 .services .container .box {
@@ -364,19 +364,19 @@ a {
 /* End Skills */
 
 /* Start Contact */
-.contact {
+.contacts {
     padding-top: var(--main-section-padding);
     padding-bottom: var(--main-section-padding);
 }
 
-.contact .container {
+.contacts .container {
     display: flex;
     justify-content: center;
     gap: 50px;
     text-align: center;
 }
 
-.contact .container .box {
+.contacts .container .box {
     background-color: white;
     padding: 10px;
     border-radius: 6px;
@@ -384,22 +384,22 @@ a {
     transition: var(--main-transition);
 }
 
-.contact .container .box:hover {
+.contacts .container .box:hover {
     transform: scale(1.1);
     box-shadow: 0 0 30px #00a59f;
 }
 
-.contact .container .box {
+.contacts .container .box {
     flex: 1;
 }
 
-.contact .container .box h3 {
+.contacts .container .box h3 {
     color: var(--main-color);
     font-size: 30px;
     font-weight: bold;
 }
 
-.contact .container .box p {
+.contacts .container .box p {
     color: black;
     font-size: 20px;
     font-weight: bold;
